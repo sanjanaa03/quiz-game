@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <!--fontawesome icons cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--custom css-->
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body class ="flex">
+    <div class = "wrapper">
+         <div class ="quiz-container">
+            <div class = "quiz-head">
+                <h1 class ="quiz-title">Quiz Game</h1>
+                <div class = "quiz-score flex">
+                     <span id =  "correct-score"></span>/<span id =
+                     "total-question" ></span>
+                 </div>
+            </div>
+
+            <div class = "quiz-body">
+                <h2 class = "quiz-question" id = "question"><!--What is the fullform of HTTP?<br>
+                <span class="category">Geography</span>--></h2>
+                <ul class = "quiz-options">
+                   <!-- <li>1. Hyper text transfer package</li>
+                    <li>1. Hyper text transfer package</li> 
+                    <li>1. Hyper text transfer package</li> 
+                    <li>1. Hyper text transfer package</li> -->
+                </ul>
+                <div id = "result">
+                        <!--result here-->
+                </div>
+            </div>
+
+            <div class ="quiz-foot">
+                <button type = "button" id="check-answer"> Check Answer</button> 
+                <button type  ="button" id="play-again">Play Again</button>
+             </div>
+    </div>
+
+
+    <!--javascript for quiz app-->
+    <script src = "script.js"></script>
+</body>
+</html>

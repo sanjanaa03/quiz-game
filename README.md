@@ -1,2 +1,2 @@
 # quiz-game
-quiz game porject
+quiz game project
